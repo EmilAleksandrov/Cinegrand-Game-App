@@ -1,0 +1,87 @@
+[12-Aug-2015 21:09:36 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:4
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 4, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendor/lara in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:09:36 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:11:52 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:4
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 4, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendor/lara in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:11:52 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:06 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:4
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 4, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendor/lara in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:06 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:15 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:4
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 4, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendor/lara in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:15 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:17 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:4
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 4, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendor/lara in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:17 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:18 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:4
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 4, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(4): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendor/lara in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:14:18 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 4
+[12-Aug-2015 21:17:13 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/../../vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:6
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(6): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 6, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(6): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendo in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 6
+[12-Aug-2015 21:17:13 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/../../vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 6
+[12-Aug-2015 21:17:43 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/storage/views/../../vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9:6
+Stack trace:
+#0 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(6): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 6, Array)
+#1 /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9(6): require_once()
+#2 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/soci15sm/...')
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/soci15sm/...', Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/soci15sm/...', Array)
+#5 /home/soci15sm/cine/vendo in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 6
+[12-Aug-2015 21:17:43 UTC] PHP Fatal error:  main(): Failed opening required '/home/soci15sm/cine/app/storage/views/../../vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 6
+[12-Aug-2015 21:22:01 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/soci15sm/cine/app/controllers/vendor/autoload.php): failed to open stream: No such file or directory' in /home/soci15sm/cine/app/controllers/HomeController.php:21
+Stack trace:
+#0 /home/soci15sm/cine/app/controllers/HomeController.php(21): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/soci15sm/...', 21, Array)
+#1 /home/soci15sm/cine/app/controllers/HomeController.php(21): HomeController::home()
+#2 [internal function]: HomeController->home()
+#3 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#4 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(93): Illuminate\Routing\Controller->callAction('home', Array)
+#5 /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(62): Illuminate\Routing\ControllerDispatcher->call(Object(HomeController), Object(Illuminate\Routing\R in /home/soci15sm/cine/app/controllers/HomeController.php on line 21
+[12-Aug-2015 21:22:01 UTC] PHP Fatal error:  HomeController::home(): Failed opening required '/home/soci15sm/cine/app/controllers/vendor/autoload.php' (include_path='/home/soci15sm/cine/vendor/phpseclib/phpseclib/phpseclib:.:/usr/lib/php:/usr/local/lib/php') in /home/soci15sm/cine/app/controllers/HomeController.php on line 21
+[12-Aug-2015 21:24:08 UTC] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/soci15sm/cine/app/controllers/HomeController.php on line 22
+[13-Aug-2015 19:50:05 UTC] PHP Fatal error:  Call to undefined method Illuminate\Routing\Router::home() in /home/soci15sm/cine/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 211
+[13-Aug-2015 20:24:12 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/soci15sm/cine/app/storage/views/b324e7c2cf85d01cc66d8678e1c86a4f on line 16
+[14-Aug-2015 05:38:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 30
+[14-Aug-2015 05:39:06 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 30
+[14-Aug-2015 05:42:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/soci15sm/cine/app/storage/views/be9419444652db9149f60bc39e2426b9 on line 29

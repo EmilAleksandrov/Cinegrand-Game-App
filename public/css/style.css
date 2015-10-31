@@ -1,0 +1,624 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../fonts/Century-Gothic.ttf);
+}
+
+@font-face {
+    font-family: MyriadProRegular;
+    src: url('../fonts/Myriad-Pro-Regular.eot');
+    src: url('../fonts/Myriad-Pro-Regular.eot?#iefix')
+        format('embedded-opentype'),
+        url('../fonts/Myriad-Pro-Regular.woff') format('woff'),
+        url('MyriadPro-Regular.otf') format('otf');
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+    /*    display: block;
+        width: 535px;
+        margin: 0 auto;*/
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear { clear: both; }
+p { /* margin-bottom: 15px; */ }
+strong { font-weight: bold; }
+
+h1 { font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; font-style: normal; font-size: 30px; color: #ff6600; line-height: 30px; }
+h2 { font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; font-style: normal; font-size: 30px; color: white; }
+
+.pt20 { padding-top: 20px; }
+.p20 { padding: 20px; }
+
+input, textarea { padding: 10px 20px; color: #454545; font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; }
+
+img{
+    border: 0;
+    display: inline-grid;
+}
+/* Fonts */
+
+
+
+/* Basic */
+body{
+    background-image: url('../images/Background-basic.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 810px;
+}
+
+/* -------MENU------- */
+
+/*Header menu*/
+
+nav ul {
+    margin: 154.5px 0 0 159.8px;
+    list-style-type: circle;
+}
+
+ul li { 
+    display: inline-block;
+    margin: 0 0 0 0px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    nav ul {
+        margin: 154.5px 0 0 159.8px;
+        list-style-type: circle;
+    }
+}
+
+ul li a {
+    color: #1E1A0F; 
+    margin-right: 8.8px;
+    text-decoration: none; 
+    font-family: MyriadProRegular;
+}
+
+ul li a:after {
+    content: "\002022";
+    margin: 0px 0 0 15px;
+    font-size: 20px;
+}
+
+ul li:last-child a:after {
+    content: "";
+
+}
+
+/*Footer menu*/
+.company-creator{
+    margin-left: 46px;
+}
+
+.company-application{
+    margin-left: 393px;
+}
+
+.footer-navigation{
+    margin-top: 69px;
+    margin-left: 162px;
+}
+
+.footer-navigation ul li a{
+    color: #A7A9AC;
+}
+
+footer div[class*='company']{
+    display: inline-block;
+}
+
+#companys-info{
+    margin: 58px 0 0 0;
+}
+
+#companys-info .footer-text a{
+    font-family: Arial;
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+/*Logos*/
+
+.register-logo {
+    margin: 0 0 0 0;
+}
+
+.annual-voucher {
+    margin: 143px 0 0 32px;
+}
+
+.sign-up-logo img{
+    margin: 40px 0px 0 131px;
+}
+
+.begin-text-logo{
+    margin: 185px 0 0 126px;
+}
+
+/* -------FORMS------- */
+
+/* Register Form */
+
+.register-form{
+    margin: 16px 80px;
+}
+
+.input-text-container{
+    margin: 0px 0px 2px 68px;
+}
+
+.input-text-container input{ 
+    font-family: Trebuchet MS;
+}
+
+.input-text-container input{
+    width: 152px;
+    height: 25px;
+    background-color: #f1f2f2; 
+    border: 0.3px solid #4f4f4f;
+    border-radius: 2.3px;
+    box-shadow: inset 0 0 3.6px 1px #888;
+    margin-right: 5.7px;
+    padding: 0 0 0 15px;
+}
+
+.register-checkbox-container{
+    margin: 21px 185px 5px 219px;
+}
+
+.register-checkbox-container p{
+    display: inline-block;
+    color:#FBE098;
+}
+
+.image-button{
+    border: 0;
+    cursor:pointer;
+}
+
+.register-submit-container input{
+    width: 223px;
+    height: 65px;
+    background: url("../images/unactive-btn.png") no-repeat;
+    border-radius: 5px;
+    margin: 9px 214px;
+}
+
+.register-submit-container-active{
+    background: url("../images/Start-button-active.png") !important;
+
+}
+
+.begin-btn input {
+    width: 243px;
+    height: 136px;
+    background: url("../images/Begin-btn.png") no-repeat 0 transparent;
+    margin: 71px 0px 0px 288px;
+}
+
+/* Start game*/
+
+.begin-btn{
+    width: 223px;
+    height: 65px;
+    margin: 50px auto;
+}
+
+.begin-btn a{
+    display: inline-block;
+    width: 223px;
+    height: 65px;
+    background: url("../images/Begin-btn.png") no-repeat 0 transparent;
+}
+
+/* Questions and answers*/
+#green-id-num{
+    color:#39B54A;
+}
+
+
+
+#question-number{
+    margin: 192px 0 31px 130px;
+    width: 500px;
+    position: relative;
+}
+
+#question-text img{
+    margin: -26px 0px 12px 193px;
+}
+
+#question-number p {
+    color:white;
+    display: inline-block;
+    margin: 4px 0 0 236px;
+    position: absolute;
+}
+
+#question-number p span{
+    margin: 0 0 0 -39px;
+    color:white;
+    text-shadow: 0 0 17px #FFcc99, 0 0 24px #fff;
+
+}
+#success-title{
+    margin: 0 0 0 100px;
+    color:white;
+
+}
+
+#question #confirm-participation{
+    width: 317px;
+    margin-left: 256px;
+    font-size: 0px;
+}
+
+#question #confirm-participation h1{
+    font-weight: normal;
+    /* font-size: 44.54px; */
+}
+
+#question img {
+    display: inline-block;
+}
+
+#question article:first-child {
+    width: 530px;
+    margin: 59px 0 0 138px;
+}
+
+.question-font{
+    color: #fbbd4f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.question-font #success-question{
+    margin: 0px 0px 0px -37px;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+#question article:first-child h1{
+    color: #fbbd4f;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 33px 0;
+}
+
+#question-text div{
+    position: absolute;
+    margin: -36px 0 0 351px;
+}
+
+#question-text div p{
+    font-size: 22px;
+    font-family: Arial;
+    color: #fbbd4f;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 33px 0;
+}
+
+
+#question article:not(:first-child) p span{
+    color: #fff;
+}
+
+#question article:not(:first-child) p{
+    width: 466px;
+    color: #FBE098;
+    padding: 0 -1px;
+    font-weight: normal;
+    display: inline;
+    margin: 0px 0px 0px 209px; 
+    padding: 0px 0px;
+}
+
+.answer-underline {
+    border-bottom: 1.8px solid #fbe098;
+    width: 439px;
+    display: inline-block;
+    padding: 15.6px 0;
+}
+
+#question article p span:hover{
+    color: #FBBD4F;
+    cursor:pointer;
+}
+
+#question article:nth-of-type(5) p span{
+    margin: 0 0 0 3px;
+}
+
+#question-result{
+    margin: 41px 0 0 239px;
+}
+
+#question-result p {
+    display: inline-block;
+}
+
+#game-score{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    display: inline-block;
+    box-shadow: inset 0 0 3.6px 1px #888;
+    margin-left: 13px;
+}
+
+#game-score p {
+    color: black;
+    margin: 9.2px 0 0 31px;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+/* Confrim section*/
+
+.confirm-submit-container form input{
+    margin: 0 0 0 301px;
+    width: 223px;
+    height: 65px;
+    background: url("../images/Confirm-btn.png") no-repeat 0 transparent;
+}
+
+.confirm-submit-container input{
+    margin: 0 0 15px 301px;
+    width: 222px;
+    height: 43px;
+    background: url("../images/Facebook-share-btn.png") no-repeat 0 transparent;
+    margin-top: 19px;
+}
+
+#annual-voucher-container img{
+    margin: 0 auto;
+    display: block;
+}
+
+/* Condition section */
+
+#question-number .question-font #general-terms-title {
+    text-shadow: none;
+    margin-left: -35px;
+}
+
+#general-terms-text{
+    background-color: #fff;
+    width: 494px;
+    margin: 0 auto;
+    padding: 19px;
+    border-radius: 3px;
+}
+
+#general-terms-text article p {
+    font-size: 15.66px;
+    font-family: Arial;
+}
+
+/* Winners */
+.winner-container{
+    margin: 10px 0 45px 0;
+}
+
+#question-number .question-font #winnwers-text{
+    font-family: CenturyGothic;
+    margin-left: -31px;
+}
+
+#winners-list{
+    width: 420px;
+    margin: 0 0 0 248px;
+    display: block;
+}
+
+#winners-list .winners-image {
+    border: 2px solid #C2A461;
+    display: inline-block;
+    background-color: black;
+}
+
+#winners-list .winners-image img {
+    width: 122px;
+    height: 122px;
+    display: inline-block;
+    padding: 4px 4px 2px 4px;
+}
+
+#winners-list .winner-image{
+    box-sizing: border-box;       
+    -moz-box-sizing:border-box;       
+    -webkit-box-sizing:border-box;
+    background-color: red;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    border: 2px solid #C2A461;
+}
+
+#winners-list .winner-image div{
+    border: 3px solid black;
+    height: 100%;
+    border: 1px solid #050505;
+}
+
+#winners-list .winner-position-logo{
+    display: inline-block;
+    position: absolute;
+    margin: -18px 0 0 -30px;
+}
+
+#winners-list .winner-position-logo div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+#winners-list .winner-data {
+    height: 134.6px;
+    width: 286px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 16px;
+}
+
+#winners-list .winner-data .winner-info{
+    width: 100%;
+    height: 50%;
+}
+
+#winners-list .winner-data .winner-gift{
+    width: 100%;
+    height: 49.8%;
+
+}
+
+#winners-list .winner-data .winner-gift{
+    width: 100%;
+    height: 49.8%;
+
+    margin-top: 13px;
+}
+
+.winner-info p:nth-of-type(1){
+    color: #FBE098;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.winner-info p:nth-of-type(2){
+    color: #fff;
+    font-family: Arial;
+    font-style: italic;
+    font-size:16px;
+}
+
+.winner-gift p:nth-of-type(1){
+    color: #fff;
+    font-family: Arial;
+    font-size:16px;
+}
+
+.winner-gift p:nth-of-type(1){
+    color: #fff;
+    font-family: Arial;
+    font-family: CenturyGothic;
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom: 10px;
+}
+
+.winner-gift p:nth-of-type(2){
+    color: #fff;
+    font-family: CenturyGothic;
+}
+
+#winners-list .winner-container:nth-of-type(1) .winner-gift p{
+    color: #FBE098;
+}
+
+#winners-list .winner-container:nth-of-type(1) .winner-data{
+    margin: 15px 0 0 16px;
+}
+
+#congratulations-container{
+    margin: 65px 0 0 216px;
+}
+
+/* Popups */
+
+#popup-success{
+    background: url("../images/Question-success.png") no-repeat;
+}
+
+#popup-error{
+    background: url("../images/Question-error.png") no-repeat 0 transparent;
+}
+
+.answerPopup{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:348px;  
+    height:193px;  
+    margin-left:-174px; 
+    margin-top:-10px; 
+}
+
+
+.popupButton{
+    margin: 135px 0 0 81px;
+    height: 39px;
+    width: 188px;
+    border: 0;
+    cursor: pointer;
+}
+
+.success-btn{
+    background: url("../images/Next-question-button.png") no-repeat 0 transparent;
+}
+
+.error-btn{
+    background: url("../images/Next-question-button.png") no-repeat 0 transparent;
+}
+
+.hidden-element{
+    display: none;    
+}
+
+
+.grean-class{
+    color: green;
+}
